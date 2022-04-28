@@ -5,7 +5,8 @@ body { font-family: 'Karma', serif;
 }
 
 
-.all {background-color: hsl(225, 100%, 94%);}
+.all {background-color: hsl(225, 100%, 94%);
+}
 
 .parte-branca { background-color: white; 
     width: 360px;
@@ -18,7 +19,8 @@ box-shadow: 0 0 1em rgb(177, 158, 241);
 
 .imagem1 {width: 360px;
 border-top-left-radius: 20px;
-border-top-right-radius: 20px;}
+border-top-right-radius: 20px;
+}
 
 .anual-plan {background-color: hsl(225, 100%, 98%) ;
             width: 320px;
@@ -80,3 +82,30 @@ width: 80px;}
 
 .change {position: relative; left: 240px; bottom: 150px;
 } 
+
+@media (min-width: 550px) {
+
+  .parte-branca {width: 500px;
+                height: 780px;
+                max-width: 1500px;}
+
+  .imagem1 {width: 500px;}               
+
+  .titulo1 {font-size: 30px;
+width: 250px;}
+
+.paragrafo1 {width: 330px;font-size: 19px;}
+ 
+.anual-plan {margin-left: 60px;
+            margin-top: 25px;
+        width: 370px;}
+
+            .botao-roxo { width: 370px;
+            left: 60px;}
+
+            .change { margin-left: 60px; }
+
+            .botao-branco { left: 80px;
+                bottom: 30px; 
+                font-size: 25px ; }
+}
