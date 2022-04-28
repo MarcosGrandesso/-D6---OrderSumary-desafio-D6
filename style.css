@@ -1,0 +1,48 @@
+body { font-family: 'Karma', serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;}
+
+
+.all {background-color: hsl(225, 100%, 94%);}
+
+.parte-branca { background-color: white; 
+    width: 360px;
+     height: 550px;
+    border-radius: 20px;
+margin: 70px 20px 0 20px;}
+
+.imagem1 {width: 360px;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;}
+
+.anual-plan {background-color: hsl(225, 100%, 98%) ;
+            width: 320px;
+            border-radius: 20px;
+            height: 100px;
+            display: inline-block;}
+
+
+.titulo1 { width: 183px;
+margin: 30px auto;
+color: hsl(223, 47%, 23%);
+}
+
+.paragrafo1 { width: 280px;
+margin: auto;
+font-size: 17px;
+color: hsl(224, 23%, 55%);}
+
+.botao-roxo { background-color: hsl(245, 75%, 52%);
+     width: 320px;
+      height: 60px;
+        border: none;
+        border-radius:15px;
+       color: white;
+    font-size: 20px;
+}
+
+.botao-branco {background-color: white;
+border: none;
+border-radius: 15px;
+width: 320px;}
