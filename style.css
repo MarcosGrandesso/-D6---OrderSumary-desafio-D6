@@ -1,7 +1,8 @@
 body { font-family: 'Karma', serif;
     font-family: 'Noto Sans', sans-serif;
     font-family: 'Outfit', sans-serif;
-    font-family: 'Red Hat Display', sans-serif;}
+    font-family: 'Red Hat Display', sans-serif;
+}
 
 
 .all {background-color: hsl(225, 100%, 94%);}
@@ -10,7 +11,8 @@ body { font-family: 'Karma', serif;
     width: 360px;
      height: 600px;
     border-radius: 20px;
-margin: auto;
+    max-width: 412px;
+    margin: 70px auto;
 box-shadow: 0 0 1em rgb(177, 158, 241);
 }
 
@@ -46,7 +48,7 @@ color: hsl(224, 23%, 55%);}
     position: relative;
     bottom: 80px;
     left: 20px;
-    box-shadow: 0px 7px 7px hsl(245, 75%, 52%);
+    box-shadow: 0px 7px 7px hsl(253, 89%, 75%);
 }
 
 .botao-branco {background-color: white;
@@ -64,14 +66,17 @@ font-weight: 700;
 .anual-h3 { position: relative;
 left: 110px;
 bottom: 90px;
- color: hsl(223, 47%, 23%);}
+ color: hsl(223, 47%, 23%);
+width: 105px;
+margin-right: 0;}
 
 .icone-musica { width: 70px; margin: 15px 0 0 15px;}
 
 .paragrafo2 { color:hsl(224, 23%, 55%);
      position: relative;
     left: 118px;
-bottom: 105px;}
+bottom: 105px;
+width: 80px;}
 
 .change {position: relative; left: 240px; bottom: 150px;
 } 
