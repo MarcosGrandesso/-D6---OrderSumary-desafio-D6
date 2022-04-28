@@ -1,111 +1,149 @@
-body { font-family: 'Karma', serif;
-    font-family: 'Noto Sans', sans-serif;
-    font-family: 'Outfit', sans-serif;
-    font-family: 'Red Hat Display', sans-serif;
+body {
+  font-family: "Karma", serif;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Outfit", sans-serif;
+  font-family: "Red Hat Display", sans-serif;
 }
 
-
-.all {background-color: hsl(225, 100%, 94%);
+.all {
+  background-color: hsl(225, 100%, 94%);
+  background-image: url(pattern.png);
+  background-repeat: no-repeat;
+  background-size: 2050px;
 }
 
-.parte-branca { background-color: white; 
-    width: 360px;
-     height: 600px;
-    border-radius: 20px;
-    max-width: 412px;
-    margin: 70px auto;
-box-shadow: 0 0 1em rgb(177, 158, 241);
+.parte-branca {
+  background-color: white;
+  width: 360px;
+  height: 600px;
+  border-radius: 20px;
+  max-width: 412px;
+  margin: 70px auto;
+  box-shadow: 0 0 1em rgb(177, 158, 241);
 }
 
-.imagem1 {width: 360px;
-border-top-left-radius: 20px;
-border-top-right-radius: 20px;
+.imagem1 {
+  width: 360px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
-.anual-plan {background-color: hsl(225, 100%, 98%) ;
-            width: 320px;
-            border-radius: 20px;
-            height: 100px;
-            display: inline-block;
-        margin: 2px 0 10px 20px;}
-
-
-.titulo1 { width: 183px;
-margin: 30px auto 20px;
-color: hsl(223, 47%, 23%);
+.anual-plan {
+  background-color: hsl(225, 100%, 98%);
+  width: 320px;
+  border-radius: 20px;
+  height: 100px;
+  display: inline-block;
+  margin: 2px 0 10px 20px;
 }
 
-.paragrafo1 { width: 280px;
-margin: 10px auto 10px;
-font-size: 17px;
-color: hsl(224, 23%, 55%);}
-
-.botao-roxo { background-color: hwb(245 16% 12%);
-     width: 320px;
-      height: 60px;
-        border: none;
-        border-radius:15px;
-       color: white;
-    font-size: 20px;
-    position: relative;
-    bottom: 80px;
-    left: 20px;
-    box-shadow: 0px 7px 7px hsl(253, 89%, 75%);
+.titulo1 {
+  width: 183px;
+  margin: 30px auto 20px;
+  color: hsl(223, 47%, 23%);
 }
 
-.botao-branco {background-color: white;
-border: none;
-border-radius: 15px;
-width: 320px;
-position: relative;
-bottom: 50px;
-left: 20px;
-font-size: 17px;
-color: hsl(224, 23%, 55%);
-font-weight: 700;
+.paragrafo1 {
+  width: 280px;
+  margin: 10px auto 10px;
+  font-size: 17px;
+  color: hsl(224, 23%, 55%);
 }
 
-.anual-h3 { position: relative;
-left: 110px;
-bottom: 90px;
- color: hsl(223, 47%, 23%);
-width: 105px;
-margin-right: 0;}
+.botao-roxo {
+  background-color: hwb(245 16% 12%);
+  width: 320px;
+  height: 60px;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  font-size: 20px;
+  position: relative;
+  bottom: 80px;
+  left: 20px;
+  box-shadow: 0px 7px 7px hsl(253, 89%, 75%);
+}
 
-.icone-musica { width: 70px; margin: 15px 0 0 15px;}
+.botao-branco {
+  background-color: white;
+  border: none;
+  border-radius: 15px;
+  width: 320px;
+  position: relative;
+  bottom: 50px;
+  left: 20px;
+  font-size: 17px;
+  color: hsl(224, 23%, 55%);
+  font-weight: 700;
+}
 
-.paragrafo2 { color:hsl(224, 23%, 55%);
-     position: relative;
-    left: 118px;
-bottom: 105px;
-width: 80px;}
+.anual-h3 {
+  position: relative;
+  left: 110px;
+  bottom: 90px;
+  color: hsl(223, 47%, 23%);
+  width: 105px;
+  margin-right: 0;
+}
 
-.change {position: relative; left: 240px; bottom: 150px;
-} 
+.icone-musica {
+  width: 70px;
+  margin: 15px 0 0 15px;
+}
+
+.paragrafo2 {
+  color: hsl(224, 23%, 55%);
+  position: relative;
+  left: 118px;
+  bottom: 105px;
+  width: 80px;
+}
+
+.change {
+  position: relative;
+  left: 240px;
+  bottom: 150px;
+}
 
 @media (min-width: 550px) {
+  .parte-branca {
+    width: 500px;
+    height: 780px;
+    max-width: 1500px;
+  }
 
-  .parte-branca {width: 500px;
-                height: 780px;
-                max-width: 1500px;}
+  .imagem1 {
+    width: 500px;
+  }
 
-  .imagem1 {width: 500px;}               
+  .titulo1 {
+    font-size: 30px;
+    width: 250px;
+  }
 
-  .titulo1 {font-size: 30px;
-width: 250px;}
+  .paragrafo1 {
+    width: 330px;
+    font-size: 19px;
+  }
 
-.paragrafo1 {width: 330px;font-size: 19px;}
- 
-.anual-plan {margin-left: 60px;
-            margin-top: 25px;
-        width: 370px;}
+  .anual-plan {
+    margin-left: 60px;
+    margin-top: 25px;
+    width: 370px;
+  }
 
-            .botao-roxo { width: 370px;
-            left: 60px;}
+  .botao-roxo {
+    width: 370px;
+    left: 60px;
+  }
 
-            .change { margin-left: 60px; }
+  .change {
+    margin-left: 60px;
+  }
 
-            .botao-branco { left: 80px;
-                bottom: 30px; 
-                font-size: 25px ; }
+  .botao-branco {
+    left: 80px;
+    bottom: 30px;
+    font-size: 25px;
+  }
 }
