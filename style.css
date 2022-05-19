@@ -9,7 +9,7 @@ body {
   background-color: hsl(225, 100%, 94%);
   background-image: url(pattern.png);
   background-repeat: no-repeat;
-  background-size: 2050px;
+  background-size: 100%;
 }
 
 .parte-branca {
